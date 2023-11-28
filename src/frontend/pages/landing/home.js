@@ -1,7 +1,5 @@
 import React from 'react';
 import { useTypewriter,Cursor } from 'react-simple-typewriter';
-import Swipe from '../../components/swiper1';
-import Swiper from '../../components/swiper2';
 
 const Home = () => {
 
@@ -39,16 +37,13 @@ const Home = () => {
       
       <div className='px-2'>
         <h3 className='font-semibold text-lg'>Latest Blogs</h3>
-        <Swipe/>
+
       </div>
       <div>
         <section className='flex justify-between my-2'>
           <span className='font-semibold'>Latest Reports</span>
           <span><input type='text' placeholder='keyword'/></span>
-        </section>
-
-         <Swiper/>
-        
+        </section>  
       </div>
     </>
  
