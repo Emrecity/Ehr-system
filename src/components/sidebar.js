@@ -27,21 +27,45 @@ const Sidebar = () => {
           <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Dashboard</button>
         </section>
        </li>
-        <li className='side-nav'><button onClick={()=>{navigate('/overview')}}><span className='mr-4'><SummarizeIcon/>
-          </span> Overview</button></li>
-        <li className='side-nav'><button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}><span className='mr-12'>
-        <AnalyticsIcon/>
-          </span> Labs </button></li>
-        <li className='side-nav'><button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}><span className='mr-4'>
-        <ImageIcon/>
-          </span> Imagings</button></li>
-        <li className='side-nav'><button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}><span className='mr-11 hover:mr-6'>
-        <NotesIcon /> 
-          </span>Notes</button></li>
-        <li className='side-nav'><button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}><span className='mr-3'>
-        <MedicalServicesIcon/> 
-          </span>Medicines</button></li>
-      </ul><br/><hr/>
+
+        <li className='side-nav'>
+          <section  className='flex gap-2'>
+          <SummarizeIcon/>
+          <button onClick={()=>{navigate('/overview')}}> Overview</button>
+          </section>
+          </li>
+
+        <li className='side-nav'>
+          <section className='flex gap-2'>
+            <AnalyticsIcon/> 
+            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}> Labs </button> 
+          </section>  
+        </li>
+
+        <li className='side-nav'>
+          <section className='flex gap-2'>
+            <ImageIcon/>
+            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Scans</button>
+          </section>
+         </li>
+
+        <li className='side-nav'>
+          <section className='flex gap-2'>
+            <NotesIcon />
+            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Notes</button> 
+          </section>
+        </li>
+
+        <li className='side-nav'>
+          <section className='flex gap-2'>
+            <MedicalServicesIcon/> 
+            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Medicines</button>
+          </section>
+        </li>
+
+      </ul>
+      
+      <br/><hr/>
       <span><button onClick={()=>{navigate('/login')}}><LogoutIcon/>Logout</button></span>
     </div>
   )

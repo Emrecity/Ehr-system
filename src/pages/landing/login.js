@@ -32,7 +32,7 @@ function submit(data){
       <div className='mx-auto'>
         <h1 className="text-lg font-bold">Hello Welcome,</h1>
         <p className="lead">Sign in to your account to continue</p>
-        <img src="img/avatar.png" alt="Charles Hall"  width="132" 
+        <img src="./img/avatar.png" alt="Charles Hall"  width="132" 
            className="mx-auto"  
         />
       </div><hr/><br/>
