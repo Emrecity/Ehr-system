@@ -18,7 +18,7 @@ const Home = () => {
           <h4>Advanced Technology For Keeping All Your Medical Records</h4>
        </section>
        <section>
-        <img src='' alt='nurse here'/>
+        <img src='' alt='nurse'/>
        </section>
       </div>
       <div className='text-center'>
