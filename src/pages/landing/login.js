@@ -22,7 +22,7 @@ function submit(data){
 
     console.log(data);
     alert("Successful")
-    navigate('/ehr/'+data.ghanacard)
+    navigate(`/ehr/${data.ghanacard}`)
 }
 
   return (
