@@ -9,10 +9,19 @@ const Over = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
-  <button onClick={()=>{navigate(`/ehr/${userData?.ghanacard}`)}}> Dashboard</button>
+    <>
+    <div className='h-screen bg-slate-100'>
+       <button onClick={()=>{navigate(`/ehr/${userData?.ghanacard}`)}}> Dashboard</button>
       <Link to='/' className='btn'>Back home</Link>
     </div>
+     
+      <div className='h-screen bg-slate-300'>
+
+      </div>
+      <div className='h-screen bg-slate-500'>
+
+      </div>
+    </>
   )
 }
 

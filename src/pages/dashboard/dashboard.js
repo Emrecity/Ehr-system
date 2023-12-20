@@ -14,7 +14,7 @@ const Dashboard = () => {
 
   return (
     <AppContext.Provider value={{userData,setUserData}}>
-    <div className='flex stickytop-0'>
+    <div className='flex sticky bottom-0'>
       { toggle && <SideBar/>}
       <main className='w-full'>
          <div className='flex bg-white justify-between sticky top-0'>
