@@ -6,7 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Navigation = () => {
-    const[toggle ,setToggle] = useState('false');
+    const[toggle ,setToggle] = useState(false);
     const Close = ()=>{
       return(
         <span className='text-white'>

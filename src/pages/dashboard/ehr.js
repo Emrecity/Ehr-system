@@ -11,7 +11,7 @@ const Ehr = () => {
      const UserInfo = Data.find((user)=>{
       return user.ghanacard === userId
     })
-
+    
     setUserData(UserInfo);
    
   })

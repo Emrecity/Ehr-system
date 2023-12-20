@@ -10,7 +10,7 @@ const Over = () => {
 
   return (
     <div>
-  <button onClick={()=>{navigate('/ehr/'+userData?.ghanacard)}}> Dashboard</button>
+  <button onClick={()=>{navigate(`/ehr/${userData?.ghanacard}`)}}> Dashboard</button>
       <Link to='/' className='btn'>Back home</Link>
     </div>
   )

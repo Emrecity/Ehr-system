@@ -6,6 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 
 export const AppContext = createContext(null);
+
 const Dashboard = () => {
 
   const [toggle, setToggle] = useState('True');
