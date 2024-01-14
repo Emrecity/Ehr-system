@@ -33,7 +33,7 @@ const Error = () => {
         <div className="p-2">
           <button
             type="button"
-            onClick={() => navigate(-2)}
+            onClick={() => navigate(-1)}
             className="btn btn-outline-primary"
           >
             Go Back 

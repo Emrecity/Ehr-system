@@ -38,28 +38,28 @@ const Sidebar = () => {
         <li className='side-nav'>
           <section className='flex gap-2'>
             <AnalyticsIcon/> 
-            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}> Labs </button> 
+            <button onClick={()=>{navigate('/lab')}}> Labs </button> 
           </section>  
         </li>
 
         <li className='side-nav'>
           <section className='flex gap-2'>
             <ImageIcon/>
-            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Scans</button>
+            <button onClick={()=>{navigate('/scan')}}>Scans</button>
           </section>
          </li>
 
         <li className='side-nav'>
           <section className='flex gap-2'>
             <NotesIcon />
-            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Notes</button> 
+            <button onClick={()=>{navigate(`/ehr/${userData.ghanacard}`)}}>Notes</button> 
           </section>
         </li>
 
         <li className='side-nav'>
           <section className='flex gap-2'>
             <MedicalServicesIcon/> 
-            <button onClick={()=>{navigate('/ehr/'+userData.ghanacard)}}>Medicines</button>
+            <button onClick={()=>{navigate(`/ehr/${userData.ghanacard}`)}}>Medicines</button>
           </section>
         </li>
 
